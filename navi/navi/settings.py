@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')zpg03+l4+b%(7$n55!9=6p)v6zd8lj4v$aj@6=syw=u2z3dhk'
+SECRET_KEY = 'vz*hc24#+e+$5%a5ej2#t2&!+^18gaavu8wf+gut@0vlsa&89*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -36,6 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app',
+    # 'south',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -80,3 +82,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_ROOT = 'F:/naviproject/naviBuilding/Page_Djan/0.0.0-2/navi/app/static/'
